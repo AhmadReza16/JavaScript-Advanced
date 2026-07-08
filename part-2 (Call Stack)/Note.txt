@@ -1,0 +1,37 @@
+Execution Context created this :
+
+_________________________________________
+|   memory     |       Code              |
+|______________|_________________________|
+|  n:          |                         |
+|   undefined  |                         |
+|              |                         |
+|  square:{}   |                         |
+|              |                         |
+| square2:     |                         |
+|   undefined  |                         |
+|              |                         |
+| square4:     |                         |
+|   undefined  |                         |
+|______________|_________________________|
+
+it has two Components , Memory* and Code*
+
+and created two phase
+phase 1 : Memory creation phase 
+phase 2 : Memory allocation phase
+
+_________________________________________
+|   memory     |       Code              |
+|______________|_________________________|
+|  n: 2        |                         |
+|              |                         |
+|              |                         |
+|  square:{}   |                         |
+|              |                         |
+| square2: 4   |                         |
+|              |                         |
+|              |                         |
+| square4: 16  |                         |
+|              |                         |
+|______________|_________________________|

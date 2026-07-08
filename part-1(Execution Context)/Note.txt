@@ -1,0 +1,19 @@
+- everything in JavaScript happens inside an Execution Context
+
+* JavaScript is a synchronous single-threaded language
+
+
+_________________________________________
+|   memory     |       Code              |
+|______________|_________________________|
+|              |                         |
+|              |                         |
+|              |                         |
+|              |                         |
+|              |                         |
+|              |                         |
+|              |                         |
+|              |                         |
+|              |                         |
+|              |                         |
+|______________|_________________________|
